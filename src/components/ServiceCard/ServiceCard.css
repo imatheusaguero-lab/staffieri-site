@@ -1,0 +1,25 @@
+.service-card {
+  width: 274px;
+  height: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 16px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.service-img {
+  width: 274px;
+  height: 274px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.service-title {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}

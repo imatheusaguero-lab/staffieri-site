@@ -1,0 +1,28 @@
+
+.contact-section{
+    height: 680px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-container{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    max-width: var(--container-desktop-width);
+}
+.contact-bottom-whatsapp{
+    width: 572px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-whatsapp);
+    border-radius: var(--radius-md);
+    
+    color: white;
+    font-size: var(--text-xl);
+}

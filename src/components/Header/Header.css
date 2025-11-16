@@ -1,0 +1,57 @@
+/* Área total do Header */
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* centraliza o conteúdo total */
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Conteúdo limitado em 1168px conforme você usa no Figma */
+.header-content {
+  width: 1168px;
+  display: flex;
+  justify-content: space-between; /* logo à esquerda / conta à direita */
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  height: 48px; /* ajuste conforme o tamanho real da sua logo */
+}
+
+/* Área da conta (ícone + textos) */
+.account-wrapper { 
+  display: flex;
+  align-items: center;
+  gap: 12px; /* espaço entre ícone e textos */
+}
+
+/* Ícone */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon {
+  font-size: 26px; /* ajuste conforme o Figma */
+  color: var(--color-black);
+}
+
+/* Textos */
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.top-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bottom-text {
+  font-size: 13px;
+  color: #555;
+}

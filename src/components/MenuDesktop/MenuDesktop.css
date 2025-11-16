@@ -1,0 +1,19 @@
+.menu-desktop-section{
+    height: 40px;
+    align-items: center;
+}
+
+.menu-desktop-nav-container{
+    width: 100%;
+    max-width: var(--container-desktop-width);
+    display: flex
+}
+
+
+.menu-desktop-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: var(--text-xl);
+
+}
