@@ -1,22 +1,27 @@
-import Header from "./components/Header/Header";
-import MenuDesktop from "./components/MenuDesktop/MenuDesktop";
-import Services from "./components/ServicesSection/Services";
-import Contact from "./components/Contact/Contact"
-import Address from "./components/Address/Address"
-import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import HomePage from "./pages/HomePage/HomePage";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import useScrollToHash from "./hooks/UseScrollToHash/UseScrollToHash";
 import './App.css';
 
 function App() {
+  
   return (
-    <div className="App">
-      <Header />
-      <MenuDesktop />
-      <Services />
-      <Contact />
-      <Address />
-      <Footer />
-    </div>
+    <Router>
+      <ScrollHandler  />
+      
+      <Routes>
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route>
+      </Routes>
+    </Router>
   );
+}
+
+function ScrollHandler(){
+  useScrollToHash();
+  return null;
 }
 
 export default App;

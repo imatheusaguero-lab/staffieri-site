@@ -1,0 +1,49 @@
+.banner-section{
+    height: 400px;  
+}
+
+.banner-container{
+    display: flex;
+    width: 1216px;
+    height: 100%;
+    background: var(--color-gray-light);
+
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-arrows{
+  display: flex;
+  width: 100%;
+  background: green;
+
+  position: absolute;
+  z-index: 3;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between ;
+
+  pointer-events: none;
+
+}
+
+.icon-arrown-services{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: yellow;
+
+  font-size: 40px;
+  color: red;
+  
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s ease;
+  cursor: pointer;
+  pointer-events: auto;
+}
