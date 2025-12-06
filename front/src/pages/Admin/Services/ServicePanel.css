@@ -1,0 +1,86 @@
+ .services-panel{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    background: blue;
+    padding: 10px;
+    gap: 8px;
+}
+.service-panel-product{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: red;
+    padding: 10px;
+    gap: 8px;
+}
+
+.service-panel-product-top{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: row;
+    background: green;
+    padding: 10px;
+    gap: 8px;
+}
+
+.service-panel-product-top-left{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+    background: yellow;
+    padding: 10px;
+    gap: 8px;
+}
+
+.service-panel-product-top-left-item{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    background: aqua;
+    gap: 8px;
+}
+
+.service-panel-product-top-right{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+    background-color: yellow;
+    gap: 8px;
+}
+
+.service-panel-product-bottom{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+    background: green;
+    padding: 10px;
+    gap: 8px;
+}
+
+.service-panel-product-bottom-galery{
+    display: flex;
+    width: 100%;
+    
+    flex-direction: row;
+    background: green;
+    padding: 10px;
+    gap: 8px;
+}
+
+.service-panel-product-bottom-galery-image{
+    display: flex;
+    width: 274px;
+    height: 328px;
+
+
+    background-color: yellow;
+}

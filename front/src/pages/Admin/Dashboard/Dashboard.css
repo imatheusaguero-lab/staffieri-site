@@ -1,0 +1,37 @@
+.dashboard-section {
+  width: 100%;
+}
+
+.dashboard-container {
+  display: flex;
+  width: 100%;
+}
+
+/* MENU LATERAL */
+.dashboard-menu {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 100vh;
+  background: red;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  border-right: 2px solid var(--color-gray-light);
+}
+
+/* PAINEL */
+.dashboard-painel {
+  margin-left: 260px; /* FAZ O PAINEL NÃO FICAR ATRAS DO MENU */
+  padding: 20px;
+  width: calc(100% - 260px);
+}
+
+/* MENU OPÇÕES */
+.dashboard-menu-opcoes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

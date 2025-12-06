@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Full-stack site
+- Data: PostgeSQL managed by Supabase @supabase_io (awsome real-time API).
+- Front-end: React + CRA.
+- Hosting: [Vercel](https://staffieri-site.vercel.app/)
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
